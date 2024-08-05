@@ -4,7 +4,7 @@ This project explores Mean-Variance Portfolio Optimization and the application o
 
 ## Project Structure
 
-- `variance_reduction.py`: Contains functions and classes implementing various variance reduction techniques, such as antithetic variates and moment matching.
+- `variance_reduction.py`: Contains functions and classes implementing various variance reduction techniques, such as antithetic variates, moment matching, and control variates. Including the functions to generate multivariate and univariate normal distributions for given mean and covariance.
 - `mean_variance_portfolio.py`: Includes functions for generating random portfolios, calculating portfolio returns, risks, and the efficient frontier.
 - `error_metrics.py`: Provides methods to calculate and evaluate error metrics to assess the effectiveness of the variance reduction techniques.
 - `main_notebook.ipynb`: A Jupyter notebook that ties everything together. It provides a step-by-step walkthrough of the portfolio optimization process, demonstrating the use of variance reduction techniques and the calculation of error metrics.
@@ -38,13 +38,13 @@ pip install numpy pandas matplotlib scipy jupyter
 
 ## Project Highlights
 
-- **Variance Reduction Techniques**: Implementations of antithetic variates and moment matching to improve simulation efficiency.
+- **Variance Reduction Techniques**: Implementations of antithetic variates, moment matching, and control variates to improve simulation efficiency.
 - **Mean-Variance Portfolio Optimization**: Calculation of optimal portfolios on the efficient frontier.
 - **Error Metrics**: Evaluation of the effectiveness of variance reduction techniques.
 
 ## Contributing
 
-Contributions are welcome! Please feel free to submit a pull request or open an issue to discuss potential improvements or bugs.
+Not the most optimal methods used, contributions are welcome! Please feel free to submit a pull request or open an issue to discuss potential improvements. 
 
 ## License
 
